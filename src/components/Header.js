@@ -13,7 +13,7 @@ export function Header({ navigation }) {
 const styles = StyleSheet.create({
   head: {
     display: "flex",
-    position: "fixed",
+    // position: "fixed",
     top: 0,
     alignItems: "center",
     justifyContent: "center",

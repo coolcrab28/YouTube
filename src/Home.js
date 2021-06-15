@@ -7,7 +7,7 @@ export function Home({ navigation }) {
     <View>
       <Header />
       <Text>Home</Text>
-      <Button onPress={() => navigation.navigate("Yo")} />
+      <Button onPress={() => navigation.navigate("Yo")} title="click" />
     </View>
   );
 }
